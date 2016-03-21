@@ -1,0 +1,99 @@
+/*! UMD-Application-Template - v1.1.0 - Last Build: 2015-03-25 */
+/****************************************************************************
+Import Bootstrap's variables to use if need be. 
+****************************************************************************/
+/****************************************************************************
+Theme Colors
+****************************************************************************/
+/****************************************************************************
+Import Bootstrap's default mixins to use for later.
+****************************************************************************/
+/****************************************************************************
+Theme Mixins
+****************************************************************************/
+/****************************************************************************
+UMD General information
+****************************************************************************/
+a.skip-link {
+  padding-left: 15px;
+}
+/****************************************************************************
+UMD Header
+****************************************************************************/
+#umd-header {
+  background: #7a0019 url(../images/UofM-bckgrnd.png) right top no-repeat;
+  padding: 15px 0;
+}
+#umd-header .umd-title-app-name {
+  margin-top: 8px;
+}
+#umd-header .umd-title-app-name .umd-title-dept {
+  color: #ffcc33;
+}
+#umd-header .umd-title-app-name h2.umd-app-name {
+  color: #ffffff;
+  margin: 0;
+  font-size: 24px;
+  text-shadow: 1px 1px #000000;
+}
+/****************************************************************************
+UMD Navigation
+****************************************************************************/
+#umd-navigation {
+  background: #ffcc33;
+  border: 1px solid #ffbf00;
+  border-radius: 0;
+  color: #000000;
+}
+#umd-navigation .navbar-toggle {
+  background: #ffffff;
+  border: 1px solid #ffbf00;
+  margin-left: 15px;
+}
+#umd-navigation .navbar-toggle .glyphicon {
+  font-size: 18px;
+}
+#umd-navigation .navbar-toggle .buttonLabel {
+  position: absolute;
+  top: 25%;
+  left: 115%;
+  /* margin-left: 10px; */
+  font-weight: bold;
+  /* font-size: 15px; */
+}
+#umd-navigation ul.nav li {
+  color: #000000;
+}
+#umd-navigation ul.nav li a {
+  color: #000000;
+}
+#umd-navigation .dropdown-menu .active a {
+  background: #ffcc33;
+}
+/****************************************************************************
+UMD Main Area
+****************************************************************************/
+#umd-main {
+  background: #ffffff;
+}
+/****************************************************************************
+UMD Footer
+****************************************************************************/
+#umd-footer {
+  padding: 15px 0;
+  background: #e5e5e5;
+  border-top: 1px solid #cccccc;
+}
+#umd-footer p,
+#umd-footer address {
+  font-size: 12px;
+}
+#umd-footer p a,
+#umd-footer address a {
+  color: #7a0019;
+}
+@media (min-width: 992px) {
+  #umd-footer address {
+    text-align: right;
+  }
+}

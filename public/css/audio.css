@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.body{
+
+    color:#fff;
+
+}
+
+.clearfix{
+    clear:both;
+}
+
+#container{
+
+}
+
+#audio-image{
+float: left;
+    clear: right;
+   width:150px;
+}
+
+#audio-info{
+    margin-left: 175px;
+    width: 300px;
+    color: red;
+
+}
+
+#audio-info .artist{
+    font-weight:bold;
+}
+
+.cover{
+    width:100%;
+    z-index:1;
+}
+
+input#volume {
+    width:20%;
+    margin-left:2%;
+    -webkit-appearance: none !important;
+    background:#ccc;
+    height:1px;
+    margin-bottom:20px;
+}
+input#volume::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:url(../images/knob.png) no-repeat;
+    height:12px;
+    width:12px;
+}
+
+#buttons{
+    width:90%;
+    display: block;
+    margin: 15px auto;
+    margin-left:23px;
+    overflow:auto;
+}
+
+
+button#play{
+    width:70px;
+    height:70px;
+    background:url(../images/play.png) no-repeat;float:left;
+}
+
+button#pause{
+    width:70px;
+    height:70px;
+    background:url(../images/pause.png) no-repeat;float:left;
+}
+
+button#stop{
+    width:70px;
+    height:70px;
+    background:url(../images/stop.png) no-repeat;float:left;
+}
+
+button#prev{
+    width:70px;
+    height:70px;
+    background:url(../images/prev.png) no-repeat;
+    float:left;
+    margin-top:15px;
+}
+
+button#next{
+    width:70px;
+    height:70px;
+    background:url(../images/next.png) no-repeat;
+    float:right;
+    margin-top:15px;
+}
+
+#playlist {
+    list-style-type: none;
+
+}
+
+#playlist li {
+    cursor: pointer;
+}
+
+#tracker{
+    position:relative;
+    width:100%;
+}
+
+#playlist li.active {
+    font-weight: bold;
+    padding:3px;
+    background: #A11421;
+}
+#playlist-2 {
+    list-style-type: none;
+
+}
+
+#playlist-2 li {
+    cursor: pointer;
+}
+
+#playlist-2 li.active {
+    font-weight: bold;
+    padding:3px;
+    background: #A11421;
+}
+
+#progressBar {
+    width:80%;
+    margin-left:2%;
+    margin-bottom:20px;
+    margin-top:9px;
+    height:100px;
+    background:url(../images/image002.gif) no-repeat;
+    float:left;
+}
+
+#progress {
+    background:url(../images/image.gif) no-repeat;
+    height:100px;
+    display:inline-block;
+}
+
+#duration{
+    float:left
+    clear:right;
+    border-radius:5px;
+    padding-bottom: -90px;
+}
